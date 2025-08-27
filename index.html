@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Social Media</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+
+    .social-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 25px 15px;
+      text-decoration: none;
+      color: #fff;
+      transition: 0.3s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      background: rgba(255, 255, 255, 0.15);
+    }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      margin-bottom: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover .icon {
+      transform: rotate(10deg) scale(1.1);
+    }
+
+    /* Social Brand Colors */
+    .facebook { background: #1877F2; }
+    .instagram { background: linear-gradient(45deg, #F77737, #E4405F, #8a3ab9); }
+    .youtube { background: #FF0000; }
+    .tiktok { background: #000; }
+    .twitter { background: #1DA1F2; }
+    .linkedin { background: #0A66C2; }
+    .whatsapp { background: #25D366; }
+    .telegram { background: #0088cc; }
+    .snapchat { background: #FFFC00; color: #000; }
+    .pinterest { background: #E60023; }
+    .reddit { background: #FF4500; }
+    .discord { background: #5865F2; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 Connect With SIYA funiture</h1>
+
+    <div class="social-grid">
+      <a href="https://facebook.com/yourprofile" class="card" target="_blank">
+        <div class="icon facebook"><i class="fab fa-facebook-f"></i></div>
+        Facebook
+      </a>
+
+      <a href="https://instagram.com/yourprofile" class="card" target="_blank">
+        <div class="icon instagram"><i class="fab fa-instagram"></i></div>
+        Instagram
+      </a>
+
+      <a href="https://youtube.com/yourchannel" class="card" target="_blank">
+        <div class="icon youtube"><i class="fab fa-youtube"></i></div>
+        YouTube
+      </a>
+
+      <a href="https://www.tiktok.com/@yourusername" class="card" target="_blank">
+        <div class="icon tiktok"><i class="fab fa-tiktok"></i></div>
+        TikTok
+      </a>
+
+      <a href="https://twitter.com/yourusername" class="card" target="_blank">
+        <div class="icon twitter"><i class="fab fa-twitter"></i></div>
+        Twitter / X
+      </a>
+
+      <a href="https://linkedin.com/in/yourprofile" class="card" target="_blank">
+        <div class="icon linkedin"><i class="fab fa-linkedin-in"></i></div>
+        LinkedIn
+      </a>
+
+      <a href="https://wa.me/9779800000000" class="card" target="_blank">
+        <div class="icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+        WhatsApp
+      </a>
+
+      <a href="https://t.me/yourusername" class="card" target="_blank">
+        <div class="icon telegram"><i class="fab fa-telegram-plane"></i></div>
+        Telegram
+      </a>
+
+      <a href="https://www.snapchat.com/add/yourusername" class="card" target="_blank">
+        <div class="icon snapchat"><i class="fab fa-snapchat-ghost"></i></div>
+        Snapchat
+      </a>
+
+      <a href="https://pinterest.com/yourprofile" class="card" target="_blank">
+        <div class="icon pinterest"><i class="fab fa-pinterest-p"></i></div>
+        Pinterest
+      </a>
+
+      <a href="https://reddit.com/u/yourusername" class="card" target="_blank">
+        <div class="icon reddit"><i class="fab fa-reddit-alien"></i></div>
+        Reddit
+      </a>
+
+      <a href="https://discord.gg/yourserver" class="card" target="_blank">
+        <div class="icon discord"><i class="fab fa-discord"></i></div>
+        Discord
+      </a>
+    </div>
+  </div>
+</body>
+</html>
